@@ -31,9 +31,8 @@ A simple demo of running a scheduled PHP process on Heroku.
         $ heroku addons:open scheduler
 
 8. Add the script as a job. Same as one-off step above, but without the `heroku run`
-
-      - Add job...
-      - `$` `bin/php www/script.php`
+       - Add job...
+       - `$` `bin/php www/script.php`
 
 9. View the scheduled job running in the logs
 
