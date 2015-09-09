@@ -22,6 +22,8 @@ A simple demo of running a scheduled PHP process on Heroku.
         Running `php www/script.php` attached to terminal... up, run.6599
         Current time: 1359943709 
 
+**Note:** The file structure on Heroku seems to have changed recently. Your script might be located simply in the root directory so if the code above isn't working try 'heroku run php script.php' and you should be alright. 
+
 6. Add the [Scheduler Add-on](https://devcenter.heroku.com/articles/scheduler)
 
         $ heroku addons:add scheduler:standard 
